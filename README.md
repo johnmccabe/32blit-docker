@@ -8,7 +8,8 @@ Building can be as simple as follows.
 
 ```
 cd 32blit-beta
-docker run -ti -v ${PWD}:/blitris johnmccabe/32blit-stm-build bash
+docker run -ti -v ${PWD}:/32blit johnmccabe/32blit-stm-build bash
+cd /32blit
 ```
 
 You can then proceed to follow the [32blit-stm32 steps](https://github.com/pimoroni/32blit-beta#32blit-stm32) to build and create the `.dfu` file from the official instructions.
