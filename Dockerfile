@@ -4,6 +4,7 @@ RUN apt update \
     && apt install --yes --no-install-recommends \
        gcc-arm-none-eabi \
        libnewlib-arm-none-eabi \
+       libstdc++-arm-none-eabi-newlib \
        cmake \
        make \
        python3 \
